@@ -1,0 +1,20 @@
+Resources
+	Raw
+		H2O - contains trace minerals
+		Chalcopyrite - CuFeS2 - 
+		Chalcocite - Cu2S
+		Wood - Produces charcoal (25% effeciency by weight).
+	Refined
+		Charcoal - wood heated in low oxygen conditions. Removes water and volatile components. 30 MJ/kg. Burns 900C without bellows, 2000C with bellows.
+	Crafted
+Industry
+	Copper Ore Material Processing
+		Pyrometallurgy - 
+		Hydrometallurgy - 
+		Solvometallurgy - Ethylene glycol and FeCl3 used as reagents. Optimal conditions for 100% recovery = 90C, 0.5 mol/L FeCl3, 40 g ore
+							per 1 L EG FeCl3 solution. Generates solid sulfur waste. Produces FeCl2 waste if using ore with Fe (chalcopyrite)
+							Copper extracted using electrodepositing. FeCl3 regenerated during electrodepositing. During leeching of Cu from 
+							ore, FeCl3 reduced to FeCl2.
+							CuFeS2 + 3FeCl3 -> 4FeCl2 + CuCl + 2S
+							Cu2S + 2FeCl3 -> 2FeCl2 + 2CuCl + S
+		Electrodeposition - Current applied to Cu(I) containing solution to rduce to Cu(0)
