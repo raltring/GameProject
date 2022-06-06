@@ -1,0 +1,9 @@
+{"Chalcopyrite"	:	{"hardness":2,
+					"content"	:	{"Copper":1,
+									"Iron":1,
+									"Sulfur":2}},
+
+"Chalcocite"	:	{"hardness":1,
+					"content"	:	{"Copper":2,
+									"Sulfur":1}}
+}

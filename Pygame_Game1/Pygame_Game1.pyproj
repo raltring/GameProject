@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5c25dab4-23b9-4669-be0f-fffd8d93a932</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pygame_Game1.py</StartupFile>
+    <StartupFile>Code\zzTestCode\CodeTesting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Code\IO\ResourceConfigurations.py" />
+    <Compile Include="Code\Resources\Ores\Chalcopyrite.py" />
+    <Compile Include="Code\Resources\Resource.py" />
+    <Compile Include="Code\zzTestCode\CodeTesting.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pygame_Game1.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Configurations\Ores.json" />
     <Content Include="ProjectStructure.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="Code\Industry\" />
+    <Folder Include="Code\Industry\Metallurgy\" />
+    <Folder Include="Code\IO\" />
+    <Folder Include="Code\zzTestCode\" />
+    <Folder Include="Code\Resources\" />
+    <Folder Include="Code\Resources\Energy\" />
+    <Folder Include="Code\Resources\Refined\" />
+    <Folder Include="Code\Resources\Ores\" />
+    <Folder Include="Graphics\" />
+    <Folder Include="Audio\" />
+    <Folder Include="Configurations\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

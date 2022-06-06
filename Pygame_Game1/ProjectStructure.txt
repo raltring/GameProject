@@ -1,14 +1,28 @@
 Resources
-	Raw
+	hardness - describes the difficulty of extraction of resource from the tile
+	quantity - describes the total content of the resource in the tile
+	remaining - describes the remaining content of resource in the tile
+	is_active - boolean value that describes whether any resoure remains and if tile is still active
+	content - dictionary of components of the ore that lists all components and the stoichiometric ratio of the components
+
+	Chemical
 		H2O - contains trace minerals
+
+	Ore
 		Chalcopyrite - CuFeS2 - 
-		Chalcocite - Cu2S
+		Chalcocite - Cu2S - 
+
+	Energy
 		Wood - Produces charcoal (25% effeciency by weight).
+
 	Refined
-		Charcoal - wood heated in low oxygen conditions. Removes water and volatile components. 30 MJ/kg. Burns 900C without bellows, 2000C with bellows.
+		Charcoal - wood heated in low oxygen conditions. Removes water and volatile components. 30 MJ/kg. Burns 900C without bellows, 2000C 
+					with bellows.
+
 	Crafted
+
 Industry
-	Copper Ore Material Processing
+	Metallurgy
 		Pyrometallurgy - 
 		Hydrometallurgy - 
 		Solvometallurgy - Ethylene glycol and FeCl3 used as reagents. Optimal conditions for 100% recovery = 90C, 0.5 mol/L FeCl3, 40 g ore
@@ -17,4 +31,6 @@ Industry
 							ore, FeCl3 reduced to FeCl2.
 							CuFeS2 + 3FeCl3 -> 4FeCl2 + CuCl + 2S
 							Cu2S + 2FeCl3 -> 2FeCl2 + 2CuCl + S
+
+	Purification
 		Electrodeposition - Current applied to Cu(I) containing solution to rduce to Cu(0)
