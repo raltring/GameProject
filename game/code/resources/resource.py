@@ -1,6 +1,6 @@
 class Resource(object):
     
-    def __init__(self, hardness, quantity, content, is_active = True):
+    def __init__(self, hardness:float, quantity:float, content:dict[str,float], is_active:bool = True):
         """
         Parent calss for resource objects. Describes the difficulty of extraction, total content at max and remaining of resource, what 
         resource is provided from extraction, and if the item is currently active.
