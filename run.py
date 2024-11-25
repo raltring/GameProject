@@ -1,1 +1,1 @@
-
+import game.code.file.main as main
